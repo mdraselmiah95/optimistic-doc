@@ -71,6 +71,29 @@ export default {
     ]
   ],
   "themeConfig": {
+    "algolia": {
+      "appId": "5HFXBVBEKK",
+      "apiKey": "ccd288f3101cce60d63389ae4ee49c2c",
+      "indexName": "optimistic-doc",
+      "contextualSearch": true,
+      "externalUrlRegex": "external\\.com|domain\\.com",
+      "replaceSearchResultPathname": {
+        "from": "/docs/",
+        "to": "/"
+      },
+      "searchParameters": {
+        "facetFilters": [
+          "language:en",
+          [
+            "filter1",
+            "filter2"
+          ],
+          "filter3"
+        ]
+      },
+      "searchPagePath": "search",
+      "insights": false
+    },
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
       "title": "OPT",
