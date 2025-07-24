@@ -1,7 +1,7 @@
 import { themes as prismThemes } from "prism-react-renderer";
 import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
-import localSearch from "@cmfcmf/docusaurus-search-local";
+
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
@@ -9,6 +9,7 @@ const config: Config = {
   tagline: "We here to build the future",
   favicon: "img/favicon.ico",
 
+  // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
@@ -69,35 +70,6 @@ const config: Config = {
   ],
 
   themeConfig: {
-    algolia: {
-      // The application ID provided by Algolia
-      appId: "5HFXBVBEKK",
-
-      // Public API key: it is safe to commit it
-      apiKey: "ccd288f3101cce60d63389ae4ee49c2c",
-
-      indexName: "optimistic-doc",
-
-      contextualSearch: true,
-
-      externalUrlRegex: "external\\.com|domain\\.com",
-
-      replaceSearchResultPathname: {
-        from: "/docs/", // or as RegExp: /\/docs\//
-        to: "/",
-      },
-
-      searchParameters: {
-        facetFilters: ["language:en", ["filter1", "filter2"], "filter3"],
-      },
-
-      searchPagePath: "search",
-
-      // Optional: whether the insights feature is enabled or not on Docsearch (`false` by default)
-      insights: false,
-
-      //... other Algolia params
-    },
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
     navbar: {
@@ -113,11 +85,7 @@ const config: Config = {
           position: "left",
           label: "Tutorial",
         },
-        {
-          to: "/contact", // the path you just created
-          label: "Contact",
-          position: "left",
-        },
+        { to: "/contact", label: "Contact", position: "left" },
         { to: "/blog", label: "Blog", position: "left" },
         {
           href: "https://github.com/facebook/docusaurus",
