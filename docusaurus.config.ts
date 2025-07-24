@@ -85,7 +85,11 @@ const config: Config = {
           position: "left",
           label: "Tutorial",
         },
-        { to: "/contact", label: "Contact", position: "left" },
+        {
+          to: "/contact", // the path you just created
+          label: "Contact",
+          position: "left",
+        },
         { to: "/blog", label: "Blog", position: "left" },
         {
           href: "https://github.com/facebook/docusaurus",

@@ -108,21 +108,26 @@ export default [
     exact: true
   },
   {
+    path: '/contact',
+    component: ComponentCreator('/contact', 'a03'),
+    exact: true
+  },
+  {
     path: '/markdown-page',
     component: ComponentCreator('/markdown-page', '3d7'),
     exact: true
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '733'),
+    component: ComponentCreator('/docs', 'da6'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '7e6'),
+        component: ComponentCreator('/docs', 'b96'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'ba6'),
+            component: ComponentCreator('/docs', 'ea1'),
             routes: [
               {
                 path: '/docs/category/tutorial---basics',
@@ -133,6 +138,12 @@ export default [
               {
                 path: '/docs/category/tutorial---extras',
                 component: ComponentCreator('/docs/category/tutorial---extras', '9ad'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/contact/',
+                component: ComponentCreator('/docs/contact/', 'ee4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

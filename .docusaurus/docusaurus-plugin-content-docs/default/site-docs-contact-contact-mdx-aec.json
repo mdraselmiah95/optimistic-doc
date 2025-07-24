@@ -1,0 +1,25 @@
+{
+  "id": "contact/contact",
+  "title": "Contact Us",
+  "description": "Have questions? Email us at hello@your-domain.com.",
+  "source": "@site/docs/contact/contact.mdx",
+  "sourceDirName": "contact",
+  "slug": "/contact/",
+  "permalink": "/docs/contact/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/contact/contact.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "id": "contact",
+    "title": "Contact Us",
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Translate your site",
+    "permalink": "/docs/tutorial-extras/translate-your-site"
+  }
+}
