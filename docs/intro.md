@@ -23,6 +23,10 @@ Generate a new Docusaurus site using the **classic template**.
 
 The classic template will automatically be added to your project after you run the command:
 
+### What you'll need
+
+To change new thing to test the new one.
+
 ```bash
 npm init docusaurus@latest my-website classic
 ```
