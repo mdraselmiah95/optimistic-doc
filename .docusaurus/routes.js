@@ -119,15 +119,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'da6'),
+    component: ComponentCreator('/docs', '360'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'b96'),
+        component: ComponentCreator('/docs', '435'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'ea1'),
+            component: ComponentCreator('/docs', 'f7b'),
             routes: [
               {
                 path: '/docs/category/tutorial---basics',
@@ -150,6 +150,12 @@ export default [
               {
                 path: '/docs/intro',
                 component: ComponentCreator('/docs/intro', '61d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/team/',
+                component: ComponentCreator('/docs/team/', '3e4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

@@ -256,17 +256,17 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-da6": {
+  "/docs-360": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-b96": {
+  "/docs-435": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-ea1": {
+  "/docs-f7b": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/category/tutorial---basics-20e": {
@@ -284,6 +284,10 @@
   "/docs/intro-61d": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-intro-0-e-3-be1"
+  },
+  "/docs/team/-3e4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-team-140-90e"
   },
   "/docs/tutorial-basics/congratulations-458": {
     "__comp": "__comp---theme-doc-item-178-a40",
